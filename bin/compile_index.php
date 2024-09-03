@@ -2,14 +2,14 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-use HeyUpdate\Emoji\UnicodeUtil;
+use Jadu\Emoji\UnicodeUtil;
 
 $configFile = __DIR__.'/../config/index.json';
 
 $template = <<<'TEMPLATE'
 <?php
 
-namespace HeyUpdate\Emoji\Index;
+namespace Jadu\Emoji\Index;
 
 class CompiledIndex extends BaseIndex
 {

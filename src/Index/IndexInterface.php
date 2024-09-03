@@ -1,6 +1,6 @@
 <?php
 
-namespace HeyUpdate\Emoji\Index;
+namespace Jadu\Emoji\Index;
 
 interface IndexInterface
 {

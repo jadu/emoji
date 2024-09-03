@@ -1,6 +1,6 @@
 <?php
 
-namespace HeyUpdate\Emoji;
+namespace Jadu\Emoji;
 
 class UnicodeUtil
 {

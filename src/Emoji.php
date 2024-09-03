@@ -1,8 +1,8 @@
 <?php
 
-namespace HeyUpdate\Emoji;
+namespace Jadu\Emoji;
 
-use HeyUpdate\Emoji\Index\IndexInterface;
+use Jadu\Emoji\Index\IndexInterface;
 
 class Emoji
 {
@@ -22,7 +22,7 @@ class Emoji
      */
     public function __construct(
         IndexInterface $index,
-        $imageHtmlTemplate = '<img alt=":{{name}}:" class="emoji" src="https://twemoji.maxcdn.com/36x36/{{unicode}}.png">'
+        $imageHtmlTemplate = '<img alt=":{{name}}:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/{{unicode}}.svg">'
     ) {
         $this->setIndex($index);
         $this->setImageHtmlTemplate($imageHtmlTemplate);
