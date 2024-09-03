@@ -16,13 +16,13 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
     public function testEmojiReplacesUnicodeEmojiWithImage()
     {
         $replacedString = $this->emoji->replaceEmojiWithImages('I ❤ Emoji');
-        $this->assertSame('I <img alt=":heart:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/2764.png"> Emoji', $replacedString);
+        $this->assertSame('I <img alt=":heart:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/2764.svg"> Emoji', $replacedString);
     }
 
     public function testEmojiReplacesNamedEmojiWithImage()
     {
         $replacedString = $this->emoji->replaceEmojiWithImages('Merry Christmas :santa:');
-        $this->assertSame('Merry Christmas <img alt=":santa:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/1f385.png">', $replacedString);
+        $this->assertSame('Merry Christmas <img alt=":santa:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/1f385.svg">', $replacedString);
     }
 
     public function testReplaceNamedWithUnicode()

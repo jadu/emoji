@@ -7,7 +7,7 @@ Built to work with [Twemoji images](http://twitter.github.io/twemoji/).
 use HeyUpdate\Emoji\Emoji;
 use HeyUpdate\Emoji\EmojiIndex;
 
-$emoji = new Emoji(new EmojiIndex(), '//cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/%s.png');
+$emoji = new Emoji(new EmojiIndex(), '//cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/%s.svg');
 $emoji->replaceEmojiWithImages('🎈 :balloon:');
 ```
 
