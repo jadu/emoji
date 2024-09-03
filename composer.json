@@ -1,5 +1,5 @@
 {
-    "name": "heyupdate/emoji",
+    "name": "jadu/emoji",
     "description": "Convert unicode and named (i.e. :smile:) Emoji into images",
     "keywords": ["emoji"],
     "type": "library",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HeyUpdate\\Emoji\\": "src/"
+            "Jadu\\Emoji\\": "src/"
         }
     },
     "extra": {

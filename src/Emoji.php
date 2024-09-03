@@ -1,8 +1,8 @@
 <?php
 
-namespace HeyUpdate\Emoji;
+namespace Jadu\Emoji;
 
-use HeyUpdate\Emoji\Index\IndexInterface;
+use Jadu\Emoji\Index\IndexInterface;
 
 class Emoji
 {

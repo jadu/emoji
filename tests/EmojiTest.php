@@ -1,8 +1,8 @@
 <?php
 
-namespace HeyUpdate\Emoji;
+namespace Jadu\Emoji;
 
-use HeyUpdate\Emoji\Index\CompiledIndex;
+use Jadu\Emoji\Index\CompiledIndex;
 
 class EmojiTest extends \PHPUnit_Framework_TestCase
 {
