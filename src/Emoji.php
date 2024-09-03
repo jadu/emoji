@@ -22,7 +22,7 @@ class Emoji
      */
     public function __construct(
         IndexInterface $index,
-        $imageHtmlTemplate = '<img alt=":{{name}}:" class="emoji" src="https://twemoji.maxcdn.com/36x36/{{unicode}}.png">'
+        $imageHtmlTemplate = '<img alt=":{{name}}:" class="emoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji/assets/svg/{{unicode}}.png">'
     ) {
         $this->setIndex($index);
         $this->setImageHtmlTemplate($imageHtmlTemplate);
